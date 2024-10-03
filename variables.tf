@@ -12,7 +12,7 @@ variable "environment" {
   description = "Environment (e.g. `prod`, `dev`, `staging`)."
 }
 variable "location" {
-  type = string
+  type    = string
   default = ""
 }
 
